@@ -422,3 +422,23 @@ Small Device Styles
   }
 
 }
+
+/*****************************************************************************
+ * checklist
+ *****************************************************************************/
+
+.checkit {
+  font-weight: bold;
+}
+.deets {
+  padding: 0 0 1em 1em;
+}
+
+ul.checklist {
+  border-top: solid medium black;
+  padding-top: 30px;
+}
+  ul.checklist li {
+    list-style-image: url('http://bit.ly/qunMkL'); 
+    list-style-position: inside;
+  }
